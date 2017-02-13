@@ -1,9 +1,13 @@
 <meta charset="utf-8" />
-<form action="11.php" method="post">
+<form action="11-12.php" method="post">
     <input type="text"  name="n"/>
     <input type="submit"/>
 </form>
+<p>  Написать функцию, которая в качестве аргумента принимает строку, и форматирует ее таким образом, что каждое новое предложение начиняется с большой буквы.
+</p>
+<p>  Написать функцию, которая в качестве аргумента принимает строку, и форматирует ее таким образом, что предложения идут в обратном порядке.
 
+</p>
 <?php
 /**
  * Created by PhpStorm.
@@ -31,8 +35,8 @@ function calcUnic ($str){
      #print_r ($txt1);
     $str_ok = implode ($txt1,'. ');
     $str_reverce = implode(array_reverse($txt1),'. ');
-    echo 'Первая большая - '.$str_ok.'<br>';
-    echo 'Первая большая в обратном плрядке - '.$str_reverce.'<br>';
+    echo '11. Первая большая - '.$str_ok.'<br><br>';
+    echo '12. Первая большая в обратном плрядке - '.$str_reverce.'<br>';
 };
 
 

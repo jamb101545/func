@@ -1,4 +1,6 @@
 <meta charset="utf-8" />
+<p> Написать функцию, которая переворачивает строку. Было "abcde", должна выдать "edcba". Ввод текста реализовать с помощью формы.
+</p>
 <form action="9.php" method="post">
     <input type="text"  name="n"/>
     <input type="submit"/>
